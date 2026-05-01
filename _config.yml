@@ -1,12 +1,9 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Michael Herring
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : mpherring09.mpherring09.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-# remote_theme        : yousinix/portfolYOU
+                      Michael Herring makes cool things.
+baseurl             : ""
+repository          : mpherring09.mpherring09.github.io
 open_new_tab        : true                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 ### Sass ###
@@ -28,60 +25,16 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
+  name              : Michael Herring
   image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
-
-
-### Posts ###
-permalink: /blog/:title
-
+  email             : mpherring09@gmail.com
+  linkedin          : michael-herring-274197231
 
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
-
-
-### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
-
-
-### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
-
-
-### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
 
 
 ### Defaults for collections ###
@@ -91,11 +44,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###

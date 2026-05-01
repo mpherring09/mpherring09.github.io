@@ -1,17 +1,23 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: My name is **Michael Herring**.
+  description: I recently graduated from **The Ohio State University**, with my BS in **Computer Science and Engineering**. In and after college, I heavily focused my efforts towards games and other interactive media, building towward a future in the world of **public facing interactives**. At this point in my career, I have authored or have had a hand in **7 public exhibits** and three shipped **industrial research simulations** for clients across the country.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: I began studing at OSU in 2021...
+  description: as an **Engineering Physics** major. After finding my interest in interactive media, I changed my major to **Computer Science**. Since then, I have supplemented my education with advanced coursework in **graphics**, **math**, **physics**, **AI**, and **games** outside of the normal requirements for my major.
+
+- title: In 2023, I entered the world of **academic research**.
+  description: I spent a summer working on a VR simulator with the **Research and Reliability Lab** at OSU. This was my first real experience working with **Unity** and **VR** for a real world application.
+
+- title: In 2024, I interned with the **BMW IT Innovation Team**,
+  description: where I researched **gamification** and **generative AI** in training simulations. I also lead the production of a proof of concept **VR/AR simulator**, giving me the chance to directly manage **client communications** while further widening my capabilities with **Unity**.
+
+- title: Right after, I interned at **COSI**,
+  description: a science museum in Columbus, OH. Here, I designed an **educational game** titled *Rendezvous*. I then produced the game as a one man team, developing in **Unity** and using **Illustrator** and **Blender** to create assets. The result was a polished experience which is currently **installed publicly** in the museum's space exhibit.
+
+- title: In 2025, I completed an internship with **Roto**,
+  description: a design-build museum and attraction studio based in Dublin, OH. Here, I produced several client applications involving wide ranges of technologies and features like **Localization**, **Content Management**, **RFID**, **MQTT**, and more. I also had the chance to develop my skills in **Exhibit Design** and to work on **Prototype**, Roto's own experimental museum.
+
+- title: After college, I worked with **FireWatch**,
+  description: a design firm based in Dayton OH. I supported their team as an independent Creative Technologist. At FireWatch, I worked on **web-based museum interactives**, and a **multiplayer touch table** game. I also played a key role in the development a scenario-based **driving simulator** used for **automotive research**, which involved advanced techniques like **modding**, integrations with **custom output hardware** through **Arduino**, and integrations with a **web-based remote command system**.
+
+- title: In addition to these experiences, I spent four exciting years with the **Ohio State University Marching Band**.
+  description: While not as technical as my other work, it was here that I built my passion for **music**, which has translated into many of my projects. As a **squad leader**, I also had to navigate a group of fourteen through **national and international travel** and some of the largest **live sporting events** in the world. This experience has shaped my understanding of **performing arts**, **mass entertainment**, **production**, **community engagement**, and what it means to strive for **excellence**.
