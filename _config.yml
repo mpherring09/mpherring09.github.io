@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Michael Herring
 description         : >-
-                      Creative Technologist building playful, engaging experiences. I combine a curiosity for technology and science with a strong background in mulimodal implemenation to create projects that are both novel and rock-solid. 
+                      Creative Technologist building playful, engaging experiences. I combine a curiosity for technology and science with a strong background in multimodal implemenation to create projects that are both novel and rock-solid. 
 baseurl             : ""
 repository          : mpherring09.mpherring09.github.io
 open_new_tab        : true                    # Opens external URLs in new tab (works for posts, projects and navbar only)
