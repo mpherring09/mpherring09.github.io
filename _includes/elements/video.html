@@ -1,3 +1,18 @@
-<div class="video">
-  <iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
-</div>
+{% assign ratio = include.ratio | default: "16/9" %}
+
+<figure class="my-5">
+  <div class="video" style="aspect-ratio: {{ ratio }}">
+    <iframe 
+      src="https://www.youtube.com/embed/{{ include.id }}{% if include.autoplay or include.mini %}?autoplay=1&mute=1{% endif %}{% if include.mini %}&loop=1&playlist={{ include.id }}{% endif %}" 
+      frameborder="0" 
+      allow="autoplay; encrypted-media" 
+      allowfullscreen
+      {% if include.mini %}style="position: absolute; top: -50%; height: 200%; pointer-events: none;"{% endif %}
+    ></iframe>
+  </div>
+  {% if include.caption %}
+  <figcaption class="text-muted text-center small">
+    {{ include.caption }}
+  </figcaption>
+  {% endif %}
+</figure>

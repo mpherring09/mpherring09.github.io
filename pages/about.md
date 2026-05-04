@@ -6,14 +6,16 @@ weight: 3
 ---
 
 # **About Me**
-Welcome to my portfolio! This page will give you a quick tour of my history and experience. I look forward to adding your organization to this list!<br>
-## My name is **{{ site.author.name }}**,<br>
-I recently graduated from **The Ohio State University**, with my BS in **Computer Science and Engineering**. In college, I heavily focused my efforts towards games and other interactive media, hoping to launch a career in the world of creative, public facing interactives.
+Welcome to my portfolio! This page will give you a quick tour of my history and experience.\
+I look forward to adding your organization to this list!<br>
 
+<div class="mt-5" markdown="1">
+## Tools & Software:
+</div>
+{% include about/carousel.html icons=site.data.tech_icons %}
 
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+<div class="mt-5" markdown="1">
+## Experience:
 </div>
 
 <div class="row">

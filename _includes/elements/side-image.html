@@ -1,0 +1,17 @@
+<div class="row align-items-center my-4">
+  {% if include.side == "left" %}
+  <div class="col-md-5">
+    <img src="{{ include.image | relative_url }}" class="img-fluid rounded shadow" alt="{{ include.title }}">
+  </div>
+  {% endif %}
+
+  <div class="col-md-7">
+    <div>{{ include.text | markdownify }}</div>
+  </div>
+
+  {% if include.side == "right" %}
+  <div class="col-md-5">
+    <img src="{{ include.image | relative_url }}" class="img-fluid rounded shadow" alt="{{ include.title }}">
+  </div>
+  {% endif %}
+</div>

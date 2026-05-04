@@ -1,0 +1,98 @@
+// _carousel.scss
+.icon-carousel-container {
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &::before { 
+    left: 0; 
+    background: linear-gradient(to right, white, transparent); 
+  }
+  &::after { 
+    right: 0; 
+    background: linear-gradient(to left, white, transparent); 
+  }
+}
+
+.icon-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 50s linear infinite;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90px; 
+  margin: 0 20px; 
+  text-align: center;
+}
+
+.img-box {
+  height: 60px;      /* Matches your logo height */
+  display: flex;
+  align-items: center; /* Centers the logo vertically within the 60px */
+  justify-content: center;
+  margin-bottom: 8px; /* Consistent gap between logo and text */
+}
+
+.carousel-img {
+  max-width: 60px;   /* Prevents wide logos from stretching */
+  max-height: 60px;  /* Prevents tall logos from stretching */
+  width: 60px;
+  height: 60px;
+  object-fit: contain; 
+  
+  filter: grayscale(100%) brightness(1) contrast(1);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+
+  &.img-light {
+      display: block !important;
+    }
+  &.img-dark {
+      display: none !important;
+    }
+}
+
+.icon-item:hover .carousel-img {
+  filter: grayscale(0%) brightness(1) contrast(1);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.icon-item span {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.icon-carousel-container:hover .icon-track {
+  animation-play-state: paused;
+}

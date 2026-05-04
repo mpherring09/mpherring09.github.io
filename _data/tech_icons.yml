@@ -1,0 +1,99 @@
+- name: C#
+  light_path: assets/tech_icons/C_Sharp.svg
+  dark_path: assets/tech_icons/C_Sharp.svg
+
+- name: C
+  light_path: assets/tech_icons/C.svg
+  dark_path: assets/tech_icons/C.svg
+
+- name: C++
+  light_path: assets/tech_icons/C_PlusPlus.svg
+  dark_path: assets/tech_icons/C_PlusPlus.svg
+
+- name: Java
+  light_path: assets/tech_icons/Java.svg
+  dark_path: assets/tech_icons/Java.svg
+
+- name: Python
+  light_path: assets/tech_icons/Python.svg
+  dark_path: assets/tech_icons/Python.svg
+
+- name: x86-64 ASM
+  light_path: assets/tech_icons/cpu.svg
+  dark_path: assets/tech_icons/cpu_white.svg
+
+- name: HTML
+  light_path: assets/tech_icons/HTML5.svg
+  dark_path: assets/tech_icons/HTML5.svg
+
+- name: GLSL
+  light_path: assets/tech_icons/OpenGL.svg
+  dark_path: assets/tech_icons/OpenGL.svg
+
+- name: Unity
+  light_path: assets/tech_icons/Unity.svg
+  dark_path: assets/tech_icons/Unity_white.svg
+
+- name: MonoGame
+  light_path: assets/tech_icons/monogame.svg
+  dark_path: assets/tech_icons/monogame.svg
+
+- name: Blender
+  light_path: assets/tech_icons/Blender.svg
+  dark_path: assets/tech_icons/Blender.svg
+
+- name: Inventor
+  light_path: assets/tech_icons/Inventor.svg
+  dark_path: assets/tech_icons/Inventor.svg
+
+- name: Autocad
+  light_path: assets/tech_icons/Autocad.svg
+  dark_path: assets/tech_icons/Autocad.svg
+
+- name: Illustrator
+  light_path: assets/tech_icons/Illustrator.svg
+  dark_path: assets/tech_icons/Illustrator.svg
+
+- name: Ableton Live
+  light_path: assets/tech_icons/Abletonlive.svg
+  dark_path: assets/tech_icons/Abletonlive_white.svg
+
+- name: Git
+  light_path: assets/tech_icons/Git.svg
+  dark_path: assets/tech_icons/Git.svg
+
+- name: Plastic SCM
+  light_path: assets/tech_icons/Plastic.svg
+  dark_path: assets/tech_icons/Plastic.svg
+
+- name: WebGL
+  light_path: assets/tech_icons/WebGL.svg
+  dark_path: assets/tech_icons/WebGL.svg
+
+- name: Arduino
+  light_path: assets/tech_icons/Arduino.svg
+  dark_path: assets/tech_icons/Arduino.svg
+
+- name: OpenXR
+  light_path: assets/tech_icons/OpenXR.svg
+  dark_path: assets/tech_icons/OpenXR.svg
+
+- name: Meta Quest
+  light_path: assets/tech_icons/Meta.svg
+  dark_path: assets/tech_icons/Meta.svg
+
+- name: Vision Pro
+  light_path: assets/tech_icons/VisionPro.svg
+  dark_path: assets/tech_icons/VisionPro_white.svg
+
+- name: OpenAI
+  light_path: assets/tech_icons/OpenAI_black.svg
+  dark_path: assets/tech_icons/OpenAI.svg
+
+- name: Gemini
+  light_path: assets/tech_icons/Gemini.svg
+  dark_path: assets/tech_icons/Gemini.svg
+
+- name: LangGraph
+  light_path: assets/tech_icons/Langgraph.svg
+  dark_path: assets/tech_icons/Langgraph.svg

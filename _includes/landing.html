@@ -1,15 +1,32 @@
 <div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
-
-    <!-- Fine Circle Responsive Image -->
+  
+  <!-- 1. Image Column: Keep it tight -->
+  <div class="col-lg-4 col-md-6 text-center my-4">
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
         <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
       </div>
     </div>
-
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
-
   </div>
+
+  <!-- Force a new line so the text stays underneath -->
+  <div class="w-100"></div>
+
+  <!-- 2. Text Column: Make it wider (e.g., col-lg-8) -->
+  <div class="col-lg-8 col-md-10 text-center my-4">
+    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">
+      {{ site.description }}
+    </p>
+
+    <div class="d-flex justify-content-center wow animated slideInUp" data-wow-delay=".15s"> 
+      <span class="mx-3">
+        {% include elements/button.html link="projects" text="Projects" %}
+      </span>
+      <span class="mx-3">
+        {% include elements/button.html link="about" text="About Me" %}
+      </span>
+    </div>
+  </div>
+
 </div>

@@ -81,4 +81,32 @@ $dark-900: #17191a;
   .timeline-body .timeline-item:after{
     background-color: $dark-900;
   }
+
+  // Carousel
+  .icon-carousel-container {
+    &::before { 
+      background: linear-gradient(to right, $dark-900, transparent); 
+    }
+    &::after { 
+      background: linear-gradient(to left, $dark-900, transparent); 
+    }
+    .img-light {
+      display: none !important; // Hide light logos in dark mode
+    }
+    .img-dark {
+      display: block !important; // Show dark logos in dark mode
+    }
+
+    .carousel-img {
+      // DARK MODE: Grayscale but "boosted" to be lighter
+      // brightness(1.5) makes dark-gray logos look like light-gray/silver
+      filter: grayscale(100%) brightness(1.2) contrast(0.8);
+      opacity: 0.8; // Higher opacity for better visibility on dark
+
+      &:hover {
+        filter: grayscale(0%) brightness(1) contrast(1);
+        opacity: 1;
+      }
+    }
+  }
 }

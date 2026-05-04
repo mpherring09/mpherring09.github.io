@@ -1,0 +1,27 @@
+<div class="d-flex flex-column flex-md-row justify-content-center align-items-center my-4">
+  
+  {%- assign row_height = include.height | default: '300' -%}
+
+  <!-- Left -->
+  <figure class="m-0 mr-md-4 text-center" style="flex: 0 1 auto; display: flex; flex-direction: column; align-items: center;">
+    <img src="{{ include.image1 | relative_url }}" 
+         class="rounded shadow-sm d-block"
+         style="height: {{ row_height }}px; width: auto; object-fit: contain;"
+         alt="{{ include.cap1 }}">
+    {% if include.cap1 %}
+      <figcaption class="text-muted small" style="width: {{ row_height }}px"><i>{{ include.cap1 }}</i></figcaption>
+    {% endif %}
+  </figure>
+
+  <!-- Right -->
+  <figure class="m-0 ml-md-4 text-center" style="flex: 0 1 auto; display: flex; flex-direction: column; align-items: center;">
+    <img src="{{ include.image2 | relative_url }}" 
+         class="rounded shadow-sm d-block"
+         style="height: {{ row_height }}px; width: auto; object-fit: contain;"
+         alt="{{ include.cap2 }}">
+    {% if include.cap2 %}
+      <figcaption class="text-muted small" style="width: {{ row_height }}px"><i>{{ include.cap2 }}</i></figcaption>
+    {% endif %}
+  </figure>
+
+</div>

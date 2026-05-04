@@ -1,0 +1,18 @@
+<div class="icon-carousel-container my-2">
+  <div class="icon-track">
+    {% capture icon_markup %}
+      {% for icon in include.icons %}
+        <div class="icon-item">
+            <div class="img-box">
+                <img src="{{ icon.light_path | relative_url }}" class="carousel-img img-light">
+                <img src="{{ icon.dark_path | relative_url }}" class="carousel-img img-dark">
+            </div>
+            <span>{{ icon.name }}</span>
+        </div>
+      {% endfor %}
+    {% endcapture %}
+
+    <div class="icon-group">{{ icon_markup }}</div>
+    <div class="icon-group">{{ icon_markup }}</div>
+  </div>
+</div>

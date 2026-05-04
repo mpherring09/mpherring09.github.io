@@ -10,6 +10,11 @@
           {%- endif -%}
         {{ project_name }}
       </h5>
+      {%- if project_subtitle -%}
+      <h6 class="card-subtitle mb-2 text-muted small">
+        {{ project_subtitle }}
+      </h6>
+      {%- endif -%}
       <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
       <p id="{{ project_id }}-tools" class="card-text">
         {%- for tool in project_tools -%}

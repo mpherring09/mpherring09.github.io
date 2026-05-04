@@ -17,9 +17,10 @@
 
   .video {
     position: relative;
-    padding-bottom: 56.25%;
+    aspect-ratio: 16/9;
     margin-bottom: 1rem;
     width: 100%;
+    overflow: hidden;
     iframe {
       position: absolute;
       height: 100%;
