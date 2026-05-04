@@ -11,7 +11,7 @@ description: 2D "doodle to life" platformer featuring photorealistic style.
 
 <div class="text-center my-2">
 
-  {% include elements/button.html link="https://mherring04.itch.io/doodle-dude" text="Play Game" %}
+  {% include elements/button.html link="https://mherring04.itch.io/doodle-dude" text="Play Game" newpage=true%}
 
 </div>
 
