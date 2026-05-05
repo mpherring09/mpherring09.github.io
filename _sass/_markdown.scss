@@ -8,6 +8,11 @@
     background: $secondary;
   }
 
+  strong {
+    color: $text-highlight-black;
+    font-weight: 700;
+  }
+
   img:not(.emoji) {
     display: block;
     max-width: 100%;

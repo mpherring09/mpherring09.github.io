@@ -59,7 +59,27 @@ My design enables new levels to be made without the need for any code.
   </div>
 </div>
 
-{% capture software_desc %}
+{% capture ui_desc %}
+## UI and Effects
+When working on effects and UI, I focused on creating a clean, smooth, simplistic look.
+
+- **Effects:** A variety of particle effects appear when UFO's are destroyed and when the game state changes
+- **Shop Menu:** UI menu for the shop which reacts to the game state
+- **Rhythm Section:** Graphics for the 2D rhythm minigame display
+- **Upgrade Menu:** Dynamic upgrade menu which reacts to several pieces of information and is fully animated using Unity's built in animation system
+{% endcapture %}
+
+<div class="row align-items-center my-4">
+  <div class="col-md-5">
+    {% include elements/video.html id="WbhXoi33twA" ratio="782/666"%}
+  </div>
+
+  <div class="col-md-7">
+    <div>{{ ui_desc | markdownify }}</div>
+  </div>
+</div>
+
+{% capture assets_desc %}
 ## Asset Creation
 I created or modified most of the assets in the game using a variety of software.
 
@@ -70,11 +90,11 @@ I created or modified most of the assets in the game using a variety of software
 {% endcapture %}
 
 <div class="row align-items-center my-4">
-  <div class="col-md-5">
-    <img src="{{"assets/img/SonicRush_Models.png" | relative_url}}" class="img-fluid rounded shadow">
+  <div class="col-md-7">
+    <div>{{ assets_desc | markdownify }}</div>
   </div>
 
-  <div class="col-md-7">
-    <div>{{ software_desc | markdownify }}</div>
+  <div class="col-md-5">
+    <img src="{{"assets/img/SonicRush_Models.png" | relative_url}}" class="img-fluid rounded shadow">
   </div>
 </div>

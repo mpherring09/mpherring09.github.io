@@ -9,6 +9,13 @@ $dark-900: #17191a;
     color: $text-white;
   }
 
+  .markdown-body {
+    strong {
+      color: $text-highlight-white;
+      font-weight: 400;
+    }
+  }
+
   // Code blocks & Syntax highlighting
 
   @import "native.scss";

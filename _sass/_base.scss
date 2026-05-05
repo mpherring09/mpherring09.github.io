@@ -25,3 +25,53 @@ body {
     color: $text-white !important;
   }
 }
+
+// Overriding Bootstrap
+.text-primary {
+  color: $primary !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.border-primary {
+  border-color: $primary !important;
+}
+
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+}
+
+.btn-outline-primary:hover {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+a {
+  color: $primary;
+}
+
+//Cards
+.card-columns {
+  column-count: 1;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+    column-count: 4;
+  }
+}

@@ -5,7 +5,7 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# About Me
 Welcome to my portfolio! This page will give you a quick tour of my history and experience.\
 I look forward to adding your organization to this list!<br>
 
