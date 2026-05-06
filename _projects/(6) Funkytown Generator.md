@@ -6,7 +6,7 @@ image: /assets/img/Funkytown_Bendy_0_Pretty.png
 description: Demonstration of devised method for procedurally generated cities with realtime non-linear spacial warping.
 ---
 
-<h1 class="text-center">Funkyown Generator</h1>
+<h1 class="text-center">Funkytown Generator</h1>
 <h6 class="text-center text-muted">Graphics Demonstration - Academic - 2024</h6>
 
 <div class="text-center my-4" markdown="1">
