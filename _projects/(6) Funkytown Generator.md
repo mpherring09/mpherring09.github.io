@@ -17,6 +17,14 @@ description: Demonstration of devised method for procedurally generated cities w
 
 <div class="col-md-10 mx-auto my-5" markdown="1">
 
+  <img src="{{"assets/img/loading.svg" | relative_url}}" class="img-fluid rounded shadow">
+  {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" top=true %}
+
+</div>
+
+<div class="col-md-10 mx-auto my-5" markdown="1">
+
+  <img src="{{"assets/img/loading.svg" | relative_url}}" class="img-fluid rounded shadow">
   {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" top=true %}
 
 </div>

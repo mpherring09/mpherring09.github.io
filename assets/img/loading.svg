@@ -16,12 +16,24 @@
       75%{x:1px;y:13px}
       83.33%{x:1px;y:1px}
     }
+    .loading-text {
+      fill: #5eabac;
+      font-family: sans-serif;
+      font-size: 2.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      opacity: 0.8;
+    }
   </style>
 
-  <!-- Centered horizontally (38) and nudged down (18) to balance the animation swing -->
-  <g transform="translate(38, 18)">
+  <!-- Spinner Group: Moved up to y=10 to clear space -->
+  <g transform="translate(38, 10)">
     <rect class="spinner_9y7u" x="1" y="1" rx="1" width="10" height="10"></rect>
     <rect class="spinner_9y7u spinner_DF2s" x="1" y="1" rx="1" width="10" height="10"></rect>
     <rect class="spinner_9y7u spinner_q27e" x="1" y="1" rx="1" width="10" height="10"></rect>
   </g>
+
+  <!-- Text: Moved down to y=38 to prevent overlap -->
+  <text x="50" y="38" text-anchor="middle" class="loading-text">Video Loading</text>
 </svg>
