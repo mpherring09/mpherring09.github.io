@@ -15,7 +15,11 @@ description: Demonstration of devised method for procedurally generated cities w
 
 </div>
 
-<img src="{{"assets/img/Funkytown_Final_0.gif" | relative_url}}" class="img-fluid rounded shadow my-4">
+<div class="col-md-10 mx-auto my-5" markdown="1">
+
+  {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" poster="assets/img/Funkytown_Bendy_0.png" top=true %}
+
+</div>
 
 <div class="text-center my-5" markdown="1">
 
@@ -127,18 +131,15 @@ description: Demonstration of devised method for procedurally generated cities w
 <div class="d-flex flex-wrap align-items-center justify-content-center col-md-12 my-4 mx-auto">
 
   <div class="p-2" style="flex: 1 1 300px;">
-    <img src="{{"assets/img/Funkytown_Flow_0.gif" | relative_url}}"
-         class="img-fluid rounded shadow">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Flow_0.mp4" %}
   </div>
 
   <div class="p-2" style="flex: 1 1 300px;">
-    <img src="{{"assets/img/Funkytown_Flow_2.gif" | relative_url}}"
-         class="img-fluid rounded shadow">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Flow_2.mp4" %}
   </div>
 
   <div class="p-2" style="flex: 1 1 300px;">
-    <img src="{{"assets/img/Funkytown_Flow_1.gif" | relative_url}}"
-         class="img-fluid rounded shadow">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Flow_1.mp4" %}
   </div>
 
 </div>
@@ -150,15 +151,23 @@ description: Demonstration of devised method for procedurally generated cities w
 
 </div>
 
-{% include elements/image-match.html 
-   image1="/assets/img/Funkytown_Flow_0.gif" 
-   image2="/assets/img/Funkytown_Flow_0_Pretty.gif" 
-   height = 300%}
+<div class="row align-items-center my-4">
+  <div class="col-md-6">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Flow_0.mp4" %}
+  </div>
+  <div class="col-md-6">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Flow_0_Pretty.mp4" %}
+  </div>
+</div>
 
-{% include elements/image-match.html 
-   image1="/assets/img/Funkytown_Flow_0_UV.gif" 
-   image2="/assets/img/Funkytown_Flow_0_UV_Pretty.gif" 
-   height = 300%}
+<div class="row align-items-center my-4">
+  <div class="col-md-6">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Flow_0_UV.mp4" %}
+  </div>
+  <div class="col-md-6">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Flow_0_UV_Pretty.mp4" %}
+  </div>
+</div>
 
 <div class="text-center my-5" markdown="1">
 
@@ -167,7 +176,11 @@ description: Demonstration of devised method for procedurally generated cities w
 
 </div>
 
-{% include elements/image-match.html 
-   image1="/assets/img/Funkytown_Final_0.gif" 
-   image2="/assets/img/Funkytown_Final_1.gif" 
-   height = 300%}
+<div class="row align-items-center mt-2 mb-4">
+  <div class="col-md-6">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" %}
+  </div>
+  <div class="col-md-6">
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Final_1.mp4" %}
+  </div>
+</div>

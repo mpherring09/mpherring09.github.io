@@ -20,6 +20,7 @@
     margin: 1rem auto;
   }
 
+  // For youtube videos
   .video {
     position: relative;
     aspect-ratio: 16/9;
@@ -31,6 +32,15 @@
       height: 100%;
       width: 100%;
     }
+  }
+
+  // For built in videos
+  video {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Optional: adds nice rounded corners */
   }
 
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
