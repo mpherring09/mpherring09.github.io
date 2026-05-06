@@ -178,7 +178,7 @@ description: Demonstration of devised method for procedurally generated cities w
 
 <div class="row align-items-center mt-2 mb-4">
   <div class="col-md-6">
-    {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" %}
+    {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" top=true%}
   </div>
   <div class="col-md-6">
     {% include elements/sourced_video.html src="assets/img/Funkytown_Final_1.mp4" %}
