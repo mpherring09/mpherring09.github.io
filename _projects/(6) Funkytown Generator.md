@@ -17,7 +17,7 @@ description: Demonstration of devised method for procedurally generated cities w
 
 <div class="col-md-10 mx-auto my-5" markdown="1">
 
-  {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" poster="assets/img/Funkytown_Bendy_0.png" top=true %}
+  {% include elements/sourced_video.html src="assets/img/Funkytown_Final_0.mp4" top=true %}
 
 </div>
 

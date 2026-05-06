@@ -12,6 +12,8 @@
   {% endif %}
   {% if include.poster %}
     poster="{{ include.poster | relative_url }}"
+  {% else %}
+    poster="{{'assets/img/loading.svg' | relative_url}}"
   {% endif %}
   style="width: 100%; height: auto; display: block;"
 >
