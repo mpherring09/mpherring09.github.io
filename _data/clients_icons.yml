@@ -1,0 +1,55 @@
+- name: FireWatch
+  light_path: assets/clients_icons/firewatch.svg
+  dark_path: assets/clients_icons/firewatch.svg
+
+- name: Roto
+  light_path: assets/clients_icons/roto.svg
+  dark_path: assets/clients_icons/roto.svg
+
+- name: COSI
+  light_path: assets/clients_icons/COSI.png
+  dark_path: assets/clients_icons/COSI.png
+
+- name: Chickasaw Cultural Center
+  light_path: assets/clients_icons/chickasawCulturalCenter_light.png
+  dark_path: assets/clients_icons/chickasawCulturalCenter.png
+
+- name: B&O Railroad Museum
+  light_path: assets/clients_icons/boRailroad.png
+  dark_path: assets/clients_icons/boRailroad.png
+
+- name: EdVenture
+  light_path: assets/clients_icons/edVenture.webp
+  dark_path: assets/clients_icons/edVenture.webp
+
+- name: Fort Worth Museum of Science and History
+  light_path: assets/clients_icons/fortWorth.webp
+  dark_path: assets/clients_icons/fortWorth.webp
+
+- name: Ohio Expo Center
+  light_path: assets/clients_icons/ohioExpoCenter.png
+  dark_path: assets/clients_icons/ohioExpoCenter.png
+
+- name: Prototype
+  light_path: assets/clients_icons/prototype_light.png
+  dark_path: assets/clients_icons/prototype.webp
+
+- name: The Ohio State University
+  light_path: assets/clients_icons/OSU.png
+  dark_path: assets/clients_icons/OSU.png
+
+- name: BMW
+  light_path: assets/clients_icons/BMW.svg
+  dark_path: assets/clients_icons/BMW.svg
+
+- name: Stellantis
+  light_path: assets/clients_icons/stellantis.svg
+  dark_path: assets/clients_icons/stellantis.svg
+
+- name: Data Annotation
+  light_path: assets/clients_icons/dataannotationtech.jpg
+  dark_path: assets/clients_icons/dataannotationtech.jpg
+
+- name: Honeywell
+  light_path: assets/clients_icons/honeywell.png
+  dark_path: assets/clients_icons/honeywell.png

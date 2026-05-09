@@ -28,7 +28,7 @@
 .icon-track {
   display: flex;
   width: max-content;
-  animation: scroll 50s linear infinite;
+  animation: scroll 75s linear infinite;
 }
 
 .icon-group {
@@ -46,12 +46,22 @@
   text-align: center;
 }
 
+.icon-item-large {
+  width: 180px; 
+  margin: 0 20px; 
+}
+
 .img-box {
   height: 60px;      /* Matches your logo height */
   display: flex;
   align-items: center; /* Centers the logo vertically within the 60px */
   justify-content: center;
   margin-bottom: 8px; /* Consistent gap between logo and text */
+}
+
+.img-box-large {
+  height: 120px;
+  margin-bottom: 16px;
 }
 
 .carousel-img {
@@ -72,6 +82,14 @@
   &.img-dark {
       display: none !important;
     }
+}
+
+.carousel-img-large{
+  max-width: 120px;   
+  max-height: 120px; 
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
 }
 
 .icon-item:hover .carousel-img {

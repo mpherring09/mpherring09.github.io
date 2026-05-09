@@ -2,10 +2,10 @@
   <div class="icon-track">
     {% capture icon_markup %}
       {% for icon in include.icons %}
-        <div class="icon-item">
-            <div class="img-box">
-                <img src="{{ icon.light_path | relative_url }}" class="carousel-img img-light">
-                <img src="{{ icon.dark_path | relative_url }}" class="carousel-img img-dark">
+        <div class="icon-item {% if include.large %}icon-item-large{% endif %}">
+            <div class="img-box {% if include.large %}img-box-large{% endif %}">
+                <img src="{{ icon.light_path | relative_url }}" class="carousel-img {% if include.large %}carousel-img-large{% endif %} img-light">
+                <img src="{{ icon.dark_path | relative_url }}" class="carousel-img {% if include.large %}carousel-img-large{% endif %} img-dark">
             </div>
             <span>{{ icon.name }}</span>
         </div>
