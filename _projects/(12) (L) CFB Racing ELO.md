@@ -15,7 +15,7 @@ description: Animated, interactive graph representing change in College Football
 
 </div>
 
-{% include elements/video.html id="dwA8_p1kSkM" ratio="1028/666" autoplay=true caption="In addition to the video above, the user can also produce an animation focusing only on the conference of their choice." %}
+{% include elements/video.html id="dwA8_p1kSkM" ratio="1028/666" autoplay=true %}
 
 {% capture desc %}
 ## **What is ELO?**

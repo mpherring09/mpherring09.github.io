@@ -23,7 +23,7 @@ The game is designed as a mashup of the rhythm and tower defense genres.
 
 - **Procedural Enemies:** Players face an onslaught of UFO's advancing along a trail. If the UFO's reach the end, players lose hearts.
 - **Game Loop:** Players spend coins on towers which destroy UFO's, in turn earning more coins
-- Tower Strategy: Four tower varieties each with four upgrades offer distinct strategic advantages and disadvantages
+- **Tower Strategy:** Four tower varieties each with four upgrades offer distinct strategic advantages and disadvantages
 - **Rhythm Component:** Towers only attack to the beat of the music. To make the towers attack, the player must "record" music by playing a rhythm minigame. Every time the player hits a note, the tower corresponding to that note will attack
 - **Upgrades:** Upgrading towers enhances range and damage, while upgrading the music itself increases the number of notes and thus the rate of fire (if the player can keep up)
 - **Adjustable Difficulty:** Three difficulties allow anyone to play. To win the normal difficulty, the player must be strategic with their purchases and skilled at the rhythm minigame

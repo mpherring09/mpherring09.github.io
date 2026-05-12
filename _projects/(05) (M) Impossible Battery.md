@@ -17,7 +17,7 @@ description: VR battery repair training simulator.
 
 <div class="text-center my-4" markdown="1">
 
-  Please see [this article](https://www.meta.com/en-gb/blog/bmw-impossible-battery-vr-mixed-reality-training-automotive/) for public information about this project.
+  Please see [this article](https://www.meta.com/en-gb/blog/bmw-impossible-battery-vr-mixed-reality-training-automotive/){:target="_blank"} for public information about this project.
 
 </div>
 

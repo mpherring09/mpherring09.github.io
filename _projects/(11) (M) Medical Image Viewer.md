@@ -35,7 +35,7 @@ I was the main developer of this project, so I was responsible for turning stati
 
 <br>
 **UI:**
-- Implementation of team-designed UI for use on large touchscreen monitors
+- Implementation of stylized UI for use on large touchscreen monitors
 - Simple animations and state change indicators
 
 **Touch Gestures:**
