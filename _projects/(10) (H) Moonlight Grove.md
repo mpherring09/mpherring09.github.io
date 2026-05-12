@@ -1,7 +1,7 @@
 ---
 name: Moonlight Grove
 subtitle: Game - Academic - 2024
-tools: [C#, Unity, AI, Immersive Environment, Audio Design]
+tools: [Unity, AI, Design, Audio]
 image: /assets/img/Moonlight_Guy.png
 description: Horror Game featuring advanced AI enemy and immersive environment.
 ---

@@ -1,9 +1,9 @@
 ---
 name: Impossible Battery
 subtitle: Training Simulator - BMW - 2024
-tools: [C#, Unity, VR, Meta, Industrial]
+tools: [Unity, VR, Quest, Industrial]
 image: /assets/img/ImpossibleBattery_Battery.png
-description: Rhythm / Tower Defense genre mashup game.
+description: VR battery repair training simulator.
 ---
 
 <h1 class="text-center">Impossible Battery</h1>

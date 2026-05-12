@@ -28,7 +28,7 @@
 .icon-track {
   display: flex;
   width: max-content;
-  animation: scroll 75s linear infinite;
+  animation: scroll var(--duration, 80s) linear infinite;
 }
 
 .icon-group {

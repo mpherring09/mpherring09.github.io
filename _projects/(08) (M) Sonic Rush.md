@@ -1,7 +1,7 @@
 ---
 name: Sonic Rush
 subtitle: Game - Personal - 2023
-tools: [C#, Unity, Design, Music]
+tools: [Unity, Design, Music]
 image: /assets/img/SonicRush_Models.png
 description: Rhythm / Tower Defense genre mashup game.
 ---

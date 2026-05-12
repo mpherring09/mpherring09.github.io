@@ -3,7 +3,7 @@ name: CFB Racing ELO Graph
 subtitle: Data Visualization - Academic - 2025
 tools: [Pandas, D3, Python, Data, Grad-Level]
 image: /assets/img/CFB_Static.png
-description: Animated data visualization representing change in College Football teams' relative performance.
+description: Animated, interactive graph representing change in College Football teams performance.
 ---
 
 <h1 class="text-center">CFB Racing ELO Graph</h1>

@@ -9,7 +9,7 @@
          style="height: {{ row_height }}px; width: auto; object-fit: contain;"
          alt="{{ include.cap1 }}">
     {% if include.cap1 %}
-      <figcaption class="text-muted small" style="width: {{ row_height }}px"><i>{{ include.cap1 }}</i></figcaption>
+      <figcaption class="text-muted small" style="width: {{ include.capWidth | default: row_height }}px"><i>{{ include.cap1 }}</i></figcaption>
     {% endif %}
   </figure>
 
@@ -20,7 +20,7 @@
          style="height: {{ row_height }}px; width: auto; object-fit: contain;"
          alt="{{ include.cap2 }}">
     {% if include.cap2 %}
-      <figcaption class="text-muted small" style="width: {{ row_height }}px"><i>{{ include.cap2 }}</i></figcaption>
+      <figcaption class="text-muted small" style="width: {{ include.capWidth | default: row_height }}px"><i>{{ include.cap2 }}</i></figcaption>
     {% endif %}
   </figure>
 

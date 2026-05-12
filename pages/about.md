@@ -13,12 +13,12 @@ Prefer a paper resume? [Click here.](/assets/Michael_Herring.pdf){:target="_blan
 <div class="mt-1" markdown="1">
 ## Tools & Software:
 </div>
-{% include about/carousel.html icons=site.data.tech_icons %}
+{% include about/carousel.html icons=site.data.tech_icons speed=50%}
 
 <div class="mt-1" markdown="1">
 ## Companies & Collaborations:
 </div>
-{% include about/carousel.html icons=site.data.clients_icons large=true %}
+{% include about/carousel.html icons=site.data.clients_icons large=true speed=50%}
 
 <div class="mt-5" markdown="1">
 ## Experience:

@@ -1,5 +1,15 @@
+{% if include.large %}
+  {% assign icon_width = 220.0 %}
+{% else %}
+  {% assign icon_width = 130.0 %}
+{% endif %}
+
+{% assign total_icons = include.icons | size %}
+{% assign speed = include.speed | default 40 %}
+{% assign duration = total_icons | times: icon_width | divided_by: speed %}
+
 <div class="icon-carousel-container my-2">
-  <div class="icon-track">
+  <div class="icon-track" style="--duration: {{duration}}s">
     {% capture icon_markup %}
       {% for icon in include.icons %}
         <div class="icon-item {% if include.large %}icon-item-large{% endif %}">

@@ -1,7 +1,7 @@
 ---
 name: Rendezvous
 subtitle: Exhibit - COSI - 2024
-tools: [C#, Unity, Exhibit, Publicly Deployed]
+tools: [Unity, Exhibit, Design]
 image: /assets/img/Rendezvous_Physics.png
 description: Educational game / simulation about orbital mechanics.
 ---
@@ -11,7 +11,7 @@ description: Educational game / simulation about orbital mechanics.
 
 <div class="text-center my-4" markdown="1">
 
-  Rendezvous is an educational game where players manipulate a rocket's orbit to intercept a satellite. I developed this game during an internship at COSI, a science museum in Columbus, OH. I designed and produced the project from start to finish with help from the scientists and designers at COSI. It is currently installed on the mezzanine level of the museum where it is enjoyed by thousands of guests every week.
+**Rendezvous** is an **educational game** deployed in the **Space** exhibit at [COSI](https://cosi.org/){:target="_blank"}, a science museum in Columbus OH. In this game, players manipulate a rocket's orbit to intercept a satellite. I designed and produced the exhibit as a solo project during my internship with COSI, with guidance from the exhibits team.
 
 </div>
 

@@ -1,7 +1,7 @@
 ---
 name: Cosmic Projections
 subtitle: Graphics Demonstration - Academic - 2024
-tools: [JavaScript, GLSL, WebGL, Grad-Level]
+tools: [JavaScript, GLSL, WebGL, Shaders, Grad-Level]
 image: /assets/img/Projections_Scene.png
 description: Low level interactive WebGL scene featuring custom shaders.
 ---
@@ -15,7 +15,12 @@ description: Low level interactive WebGL scene featuring custom shaders.
 
 </div>
 
+<div class="my-4 col-md-8 mx-auto" markdown="1">
+
 {% include elements/video.html id="jvik4pxl_wU" ratio="1" autoplay=true caption="The user can manually control the camera and objects in the scene, but if they do not, this pre-programmed animation will play." %}
+
+</div>
+
 
 {% capture modelling_desc %}
 ## Scene Modelling

@@ -1,7 +1,7 @@
 ---
 name: Doodle Dude
 subtitle: Game - Academic - 2025
-tools: [C#, Unity, Design, Web Demo]
+tools: [Unity, Design, Play Now]
 image: /assets/img/DoodleDude_Level.png
 description: 2D "doodle to life" platformer featuring photorealistic style.
 ---
@@ -11,7 +11,7 @@ description: 2D "doodle to life" platformer featuring photorealistic style.
 
 <div class="text-center my-2">
 
-  {% include elements/button.html link="https://mherring04.itch.io/doodle-dude" text="Play Game" newpage=true%}
+  {% include elements/button.html link="https://mherring04.itch.io/doodle-dude" text="Web Demo" newpage=true%}
 
 </div>
 
@@ -28,7 +28,7 @@ description: 2D "doodle to life" platformer featuring photorealistic style.
 
 <div class="d-flex justify-content-center">
   <div markdown="1" style="margin-bottom: -1rem;">
-   **The main aspects of this project included:**
+   **Project Components:**
    - Original level design for a platformer level
    - Scripts for movement, camera movement, and scene management
    - Incorporation of photography from a real-life scene into the level

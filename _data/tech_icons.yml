@@ -18,6 +18,10 @@
   light_path: assets/tech_icons/Python.svg
   dark_path: assets/tech_icons/Python.svg
 
+- name: Lua
+  light_path: assets/tech_icons/lua.svg
+  dark_path: assets/tech_icons/lua.svg
+
 - name: x86-64 ASM
   light_path: assets/tech_icons/cpu.svg
   dark_path: assets/tech_icons/cpu_white.svg
@@ -25,6 +29,10 @@
 - name: HTML
   light_path: assets/tech_icons/HTML5.svg
   dark_path: assets/tech_icons/HTML5.svg
+
+- name: Jekyll
+  light_path: assets/tech_icons/Jekyll.svg
+  dark_path: assets/tech_icons/Jekyll.svg
 
 - name: GLSL
   light_path: assets/tech_icons/OpenGL.svg
@@ -82,9 +90,9 @@
   light_path: assets/tech_icons/Meta.svg
   dark_path: assets/tech_icons/Meta.svg
 
-- name: Vision Pro
-  light_path: assets/tech_icons/VisionPro.svg
-  dark_path: assets/tech_icons/VisionPro_white.svg
+- name: Vive
+  light_path: assets/tech_icons/vive.svg
+  dark_path: assets/tech_icons/vive.svg
 
 - name: OpenAI
   light_path: assets/tech_icons/OpenAI_black.svg

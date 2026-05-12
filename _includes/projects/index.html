@@ -1,39 +1,4 @@
-
 <div class="card-columns m-3 mt-5">
-
-  <!-- Remote Projects -->
-  {% for remote_project in page.remote_projects %}
-
-    {%- for repo in site.github.public_repositories -%}
-
-      {%- if remote_project == repo.name -%}
-
-        {%- assign project = repo -%}
-        {%- assign words = project.name | split: '-' -%}
-        
-        {%- capture titlecase -%}
-          {%- for word in words -%}
-            {{ word | capitalize | append: ' ' }}
-          {%- endfor -%}
-        {%- endcapture -%}
-
-        {%- assign project_type  = "remote" -%}
-        {%- assign project_id    = project.name -%}
-        {%- assign project_img   = false -%}
-        {%- assign project_name  = titlecase | strip -%}
-        {%- assign project_desc  = project.description -%}
-        {%- assign project_url   = project.html_url -%}
-        {%- assign project_tools = project.topics -%}
-        {%- assign external      = true -%}
-
-        {% include projects/project-card.html %}
-
-      {%- endif -%}
-
-    {%- endfor -%}
-
-  {% endfor %}
-
   <!-- Local Projects -->
   {% for project in site.projects %}
 
@@ -56,5 +21,13 @@
     {% include projects/project-card.html %}
 
   {% endfor %}
+
+</div>
+
+<div class="text-center my-5" markdown="1">
+
+{{"**Looking for something?**
+
+Some of the projects I've worked on are not public yet. Please see [About Me](/about) for more info on who I've worked with." | markdownify}}
 
 </div>

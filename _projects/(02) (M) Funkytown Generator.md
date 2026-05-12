@@ -1,9 +1,9 @@
 ---
 name: Funkytown Generator
 subtitle: Graphics Demonstration - Academic - 2024
-tools: [C#, Unity, Graphics, PCG, CGI, Grad-Level]
+tools: [Unity, Graphics, PCG, CGI, Grad-Level]
 image: /assets/img/Funkytown_Bendy_0_Pretty.png
-description: Demonstration of devised method for procedurally generated cities with realtime non-linear spacial warping.
+description: Procedurally generated city meshes with realtime non-linear spacial warping.
 ---
 
 <h1 class="text-center">Funkytown Generator</h1>
